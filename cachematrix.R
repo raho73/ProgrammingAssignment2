@@ -2,8 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-## pls ignore: GIT commit/push test
-## pls ignore: GIT pull test
+
 makeCacheMatrix <- function(x = matrix()) {
 
 }
