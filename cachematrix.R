@@ -11,13 +11,13 @@ makeCacheMatrix <- function(x = matrix())
       invMA <<- NULL
     }
 	
-	#get matrix
-	getMA<- function() x												
+  #get matrix
+  getMA<- function() x												
 	
-	#set inv matrix
-	setinv<- function(inverse) invMA <<- inverse
+  #set inv matrix
+  setinv<- function(inverse) invMA <<- inverse
 	
-	#get inv matrix
+  #get inv matrix
   getinv<- function() invMA
   
   #for later access
