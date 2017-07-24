@@ -42,14 +42,14 @@ cacheSolve 	<- function(x, ...)
     }
   message("calculation required")
 	 
-	#calc inv matrix
-	newMA<-x$get()													
-	invMA<-solve(newMA,...)
+  #calc inv matrix
+  newMA<-x$get()													
+  invMA<-solve(newMA,...)
 	
-	#cache inv matrix
-	x$CAsetinv(invMA)
+  #cache inv matrix
+  x$CAsetinv(invMA)
 	
-	#return inv matrix
-	invMA
+  #return inv matrix
+  invMA
 }
 ##### end cacheSolve #########################################
