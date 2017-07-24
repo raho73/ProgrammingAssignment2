@@ -36,11 +36,11 @@ cacheSolve 	<- function(x, ...)
   
   #if cache is there return it and leave function
 	if(!is.null(invMA))													
-		{
+    {
       message("get inv matrix from cache")
       return(invMA)
-		}
-	message("calculation required")
+    }
+  message("calculation required")
 	 
 	#calc inv matrix
 	newMA<-x$get()													
