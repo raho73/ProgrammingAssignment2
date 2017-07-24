@@ -5,11 +5,11 @@ makeCacheMatrix <- function(x = matrix())
   invMA <- NULL
   
   #set matrix
-	setMA<- function(y) 											
-		{											
+  setMA<- function(y) 											
+    {											
       x<<- y
       invMA <<- NULL
-		}
+    }
 	
 	#get matrix
 	getMA<- function() x												
@@ -35,7 +35,7 @@ cacheSolve 	<- function(x, ...)
   invMA<-x$CAgetinv()
   
   #if cache is there return it and leave function
-	if(!is.null(invMA))													
+  if(!is.null(invMA))													
     {
       message("get inv matrix from cache")
       return(invMA)
