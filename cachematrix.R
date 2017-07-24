@@ -21,7 +21,10 @@ makeCacheMatrix <- function(x = matrix())
   getinv<- function() invMA
   
   #for later access
-	list(set=setMA, get=getMA,CAsetinv=setinv,CAgetinv=getinv)  		
+	list(set=setMA, 
+	     get=getMA,
+	     CAsetinv=setinv,
+	     CAgetinv=getinv)  		
 }
 ##### end makeCacheMatrix ####################################
 
